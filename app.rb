@@ -1,7 +1,8 @@
 require 'sinatra/base'
 require 'sinatra/twitter-bootstrap'
 
-class MyApp < Sinatra::Base
+class StartupWeekend < Sinatra::Base
+  register Sinatra::Twitter::Bootstrap::Assets
 
   get '/' do
     erb :index
