@@ -4,8 +4,14 @@ body {
 }
 
 .curriculum{text-align: justify;}
-.gente{
-  padding-top:40px;
+.gente{padding-top:40px;}
+
+.programa p{
+  text-align:left;
+}
+.programa time{
+  font-weight:bold;
+  padding-right: 10px;
 }
 
 #patrocinadores img{
