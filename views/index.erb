@@ -29,22 +29,27 @@
   <!-- ABOUT    ================================================== -->
   <%= partial :about %>
   <!-- PROGRAMA    ================================================== -->
-  <hr class="featurette-divider" id="programa">
+  <hr class="featurette-divider">
   <%= partial :programa %>
   <!-- SEDE     ================================================== -->
+  <hr class="featurette-divider">
+  
   <%= partial :sede %>
 
   <!-- FACILITADOR     ================================================== -->
   <hr class="featurette-divider">
-  <div class="row featurette" id="mentores">
-    <h1 style="font-size:40pt;" class="titulo_mentores">Facilitador para <span class="muted">Startup Weelend León</span></h1>
-    <!-- Ophelia Pastrana     ================================================== -->
-    <%= partial('jueces/gustavo') %>
+  
+  <div class="row featurette">
+	  
+    <h1  class="titulo_mentores span12">Facilitador para <span class="muted">Startup Weelend León</span></h1>
+    <!-- GUS      ================================================== -->
+   	 <%= partial('jueces/gustavo') %>
   </div>
   <!-- JUECES     ================================================== -->
   <hr class="featurette-divider">
+  
   <div class="row center featurette">
-    <h1 style="font-size:40pt;" class="titulo_mentores">Jueces para <span class="muted">Startup Weelend León</span></h1>
+    <h1  class="titulo_mentores span12">Jueces para <span class="muted">Startup Weelend León</span></h1>
     <!-- Ophelia Pastrana     ================================================== -->
     <%= partial('jueces/ophelia') %>
     <!-- Christian Aguirre     ================================================== -->
@@ -55,8 +60,9 @@
 
   <!-- COACHES     ================================================== -->
   <hr class="featurette-divider">
+  
   <div class="row center featurette">
-    <h1 style="font-size:35pt;" class="titulo_mentores"> Los que nos ayudarán : <span class="muted">Coaches</span></h1>
+    <h1  class="titulo_mentores"> Los que nos ayudarán : <span class="muted">Coaches</span></h1>
     <div class="row ">
       <!-- May Alba     ================================================== -->
       <%= partial('coaches/may') %>
@@ -71,26 +77,42 @@
       <!-- Francisco Viramontes  ================================================== -->
       <%= partial('coaches/francisco') %>
     </div>
-
+  </div>
   <!-- ORGANIZADORES     ================================================== -->
   <hr class="featurette-divider">
+	
   <%= partial :organizadores %>
 
   <!-- Boletos -->
-  <hr class="featurette-divider" id="boletos">
-    <h1 style="font-size:30pt;" class="titulo_mentores"> Se parte del movimiento:<span class="muted"> adquiere tu boleto</span></h1>
-  <div style="width:100%; text-align:left;"><iframe  src="https://www.eventbrite.com/tickets-external?eid=4955424809&ref=etckt&v=2" frameborder="0" height="485" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Sell Tickets Online</a> <span style="color:#ddd;">through</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+  <hr class="featurette-divider">
+   
+   <div class="row">
+       <h1 class="span12 titulo_mentores"> Se parte del movimiento:<span class="muted"> adquiere tu boleto</span></h1>
+	
+       <div style="width:100%; text-align:left;">
+	  
+   	  <iframe  src="https://www.eventbrite.com/tickets-external?eid=4955424809&ref=etckt&v=2" frameborder="0" height="485" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+	  
+   	  	<div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Sell Tickets Online</a> <span style="color:#ddd;">through</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a>
+	  
+   	  </div>
+       </div>
+   </div>
+    
 
   <!-- PATROCINADORES     ================================================== -->
   <hr class="featurette-divider">
+  
   <%= partial :patrocinadores %>
 
   <!-- FOOTER -->
   <hr class="featurette-divider">
+  
   <footer>
     <p class="pull-right"><a href="#">Regresar al Menú</a></p>
     <p>&copy; 2013 Desarrollado por . &middot; <a href="http://www.twitter.com/igmarin">Ismael Marín</a> & <a href="http://www.twitter.com/xixebombilla">Gize Bonilla</a> &middot;</p>
   </footer>
+  
 </div>
 <!-- /.container -->
 <!-- Le javascript

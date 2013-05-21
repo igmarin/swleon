@@ -4,8 +4,7 @@ body {
 }
 
 .curriculum{text-align: justify;}
-<<<<<<< HEAD
-=======
+
 .gente{padding-top:40px;}
 
 .programa p{
@@ -15,7 +14,6 @@ body {
   font-weight:bold;
   padding-right: 10px;
 }
->>>>>>> 1887d2c1dd87baaa6f571892b2f14feeee2f3db7
 
 #patrocinadores img{
   padding-right: 30px;
@@ -259,9 +257,7 @@ body {
     font-size: 18px;
   }
 
-  .marketing .span4 + .span4 {
-    margin-top: 40px;
-  }
+  
 
   .featurette-heading {
     font-size: 30px;
