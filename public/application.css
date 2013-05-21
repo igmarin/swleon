@@ -9,8 +9,10 @@ body {
     font-weight:400;
 }
 
-.lubalin, h1,h3,h4,h5,h6{font-family: Lubalin, Helvetica, Arial, sans-serif;}
 
+.lubalin, h1,h3,h2,h5,h6{font-family: Lubalin, Helvetica, Arial, sans-serif;}
+.muted{color:#119a48;}
+.center{text-align:center;}
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -114,7 +116,7 @@ body {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
 .featurette {
-  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  padding-top: 20px; /* Vertically center images part 1: add padding above and below text. */
   overflow: hidden; /* Vertically center images part 2: clear their floats. */
 }
 .featurette-image {
