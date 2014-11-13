@@ -3,6 +3,10 @@ body {
   color: #5a5a5a;
 }
 
+a, a:hover{
+  color:#119a48;
+}
+
 .nav li img{width:19px;}
 
 .curriculum{text-align: justify;}
@@ -166,12 +170,12 @@ body {
 	.nav li img{width:15px;}
 
 	#frase{max-width:100%; margin:150px auto 0; text-align:center;}
-	
+
 	.navbar .nav > li > a {
 	padding: 15px 7px;
 	color: #ccc;
 	}
-	
+
   .container.navbar-wrapper {
     margin-bottom: 0;
     width: auto;
@@ -200,7 +204,7 @@ body {
     max-width: 40%;
     margin: 0 auto 20px;
   }
-  
+
   .carousel {
     margin-left: -20px;
     margin-right: -20px;
@@ -230,17 +234,17 @@ body {
 
 
 @media (max-width: 960px) {
-	
-	
-	
+
+
+
   .navbar-inner {
     margin: -20px;
-	
+
   }
   .gente{
     padding-top:40px;
   }
-	 
+
   .carousel {
     margin-left: -20px;
     margin-right: -20px;
@@ -267,7 +271,7 @@ body {
     font-size: 18px;
   }
 
-  
+
 
   .featurette-heading {
     font-size: 30px;
