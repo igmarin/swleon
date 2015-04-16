@@ -4,7 +4,7 @@ body {
 }
 
 a, a:hover{
-  color:#119a48;
+  color:#95479B;
 }
 
 .nav li img{width:19px;}
@@ -35,7 +35,7 @@ a, a:hover{
 
 
 .lubalin, h1,h3,h2,h5,h6{font-family: Lubalin, Helvetica, Arial, sans-serif;}
-.muted{color:#119a48;}
+.muted{color:#95479B;}
 .center{text-align:center;}
 .navbar-wrapper {
   position: absolute;
@@ -70,7 +70,7 @@ a, a:hover{
 }
 
 .navbar .nav > li > a:hover {
-  background:#119a48;
+  background:#95479B;
 }
 
 .navbar .btn-navbar {
