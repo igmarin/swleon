@@ -46,6 +46,12 @@ a, a:hover{
   margin-top: 20px;
   margin-bottom: -90px;
 }
+
+.btn-success {
+  background-color: #95479B !important;
+  background-image: linear-gradient(to bottom,#95479B,#95479B);
+}
+
 .navbar-wrapper .navbar {
 }
 
