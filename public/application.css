@@ -4,7 +4,7 @@ body {
 }
 
 a, a:hover{
-  color:#119a48;
+  color:#95479B;
 }
 
 .nav li img{width:19px;}
@@ -35,7 +35,7 @@ a, a:hover{
 
 
 .lubalin, h1,h3,h2,h5,h6{font-family: Lubalin, Helvetica, Arial, sans-serif;}
-.muted{color:#119a48;}
+.muted{color:#95479B;}
 .center{text-align:center;}
 .navbar-wrapper {
   position: absolute;
@@ -46,6 +46,12 @@ a, a:hover{
   margin-top: 20px;
   margin-bottom: -90px;
 }
+
+.btn-success {
+  background-color: #95479B !important;
+  background-image: linear-gradient(to bottom,#95479B,#95479B);
+}
+
 .navbar-wrapper .navbar {
 }
 
@@ -65,12 +71,12 @@ a, a:hover{
 }
 
 .navbar .nav > li > a {
-  padding: 15px 10px;
+  padding: 10px 9px;
   color:#ccc;
 }
 
 .navbar .nav > li > a:hover {
-  background:#119a48;
+  background:#95479B;
 }
 
 .navbar .btn-navbar {

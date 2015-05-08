@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <title>Startup Weekend León</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Startup Weekend muy pronto en tu ciudad">
+<meta name="description" content="Startup Weekend Women Edition León, 22-24 Mayo, Parque Tec de Monterrey, León">
 <meta name="author" content="Gize Bonilla, Ismael G Marín">
 <meta property="og:image" content="http://www.swleon.org/images/swleon_facebook.jpg" />
-<meta property="og:site_name" content="Startup Weekend León" />
+<meta property="og:site_name" content="Startup Weekend León, Women Edition" />
 <!-- Le styles -->
 <%= bootstrap_assets %>
 <link rel="stylesheet" media="screen, projection" type="text/css" href="/application.css">
@@ -40,13 +40,26 @@
   <!-- ABOUT    ================================================== -->
   <%= partial :about %>
   <!-- GLOBAL    ================================================== -->
+  <hr class="featurette-divider">
+  <%= partial :sede %>
+  <hr class="featurette-divider">
+  <%= partial :facilitador %>
+  <hr class="featurette-divider">
+  <%= partial :coaches %>
+  <%#= partial :jueces %>
+  <hr class="featurette-divider">
+  <%= partial :boletos %>
   <!-- ORGANIZADORES     ================================================== -->
   <hr class="featurette-divider">
   <%= partial :organizadores %>
   <!-- PATROCINADORES     ================================================== -->
   <hr class="featurette-divider">
   <%= partial :patrocinadores %>
-
+  <hr class="featurette-divider">
+  <%= partial 'patrocinadores/platinum' %>
+  <hr class="featurette-divider">
+  <%= partial 'patrocinadores/gold' %>
+  <%= partial 'patrocinadores/medios' %>
   <!-- FOOTER -->
   <hr class="featurette-divider">
 
