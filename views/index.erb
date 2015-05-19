@@ -6,8 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Startup Weekend Women Edition León, 22-24 Mayo, Parque Tec de Monterrey, León">
 <meta name="author" content="Gize Bonilla, Ismael G Marín">
-<meta property="og:image" content="http://www.swleon.org/images/swleon_facebook.jpg" />
-<meta property="og:site_name" content="Startup Weekend León, Women Edition" />
+<meta property="og:image" content="http://www.swleon.org/images/swleon_facebook.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="400">
+<meta property="og:image:height" content="400">
+<meta property="og:site_name" content="Startup Weekend León, Women Edition">
+<meta property="og:description" content="Startup Weekend Women Edition León, 22-24 Mayo, Parque Tec de Monterrey, León">
 <!-- Le styles -->
 <%= bootstrap_assets %>
 <link rel="stylesheet" media="screen, projection" type="text/css" href="/application.css">
@@ -43,12 +47,16 @@
   <hr class="featurette-divider">
   <%= partial :sede %>
   <hr class="featurette-divider">
+  <%= partial :programa %>
+  <hr class="featurette-divider">
   <%= partial :facilitador %>
   <hr class="featurette-divider">
   <%= partial :coaches %>
   <%#= partial :jueces %>
   <hr class="featurette-divider">
   <%= partial :boletos %>
+  <hr class="featurette-divider">
+  <%= partial :reserbus %>
   <!-- ORGANIZADORES     ================================================== -->
   <hr class="featurette-divider">
   <%= partial :organizadores %>
